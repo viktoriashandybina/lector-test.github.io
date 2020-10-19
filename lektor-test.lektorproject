@@ -1,0 +1,12 @@
+[project]
+name = lektor-test
+url_style=absolute
+
+
+[servers.ghpages]
+name = Prod
+target = ghpages+https://victoriashandybina:2c59929038a640530e83534493afad436a1fd1e1@victoriashandybina/lector-test.github.io
+
+[servers.ghdeploy]
+name=Dev
+target = ghpages+https://victoriashandybina:2c59929038a640530e83534493afad436a1fd1e1@victoriashandybina/lector-deploy-test
